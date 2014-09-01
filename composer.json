@@ -1,0 +1,23 @@
+{
+	"name": "fredoff/bilder",
+	"type": "cakephp-plugin",
+	"description": "Gemensam bildhantering för cake3",
+	"keywords": ["cakephp", "plugin", "bilder"],
+	"homepage": "https://github.com/fredoff/bilder",
+	"require":{
+		"php": ">=5.4",
+		"composer/installers": "*"
+	},
+	"require-dev": {
+		"cakephp/cakephp": "3.0.*-dev",
+		"cakephp/app": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Bilder\\": "."
+		}
+	},
+	"extra": {
+		"installer-name": "Bilder"
+	}
+}
